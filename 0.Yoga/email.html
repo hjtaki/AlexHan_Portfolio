@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="container"
+>
+<div class="row">
+<div class="col-md-12">
+<form id="contact-form">
+<div class="form-group centre-block">
+<label for="inputName">Name</label></br>
+<input type="text" class="form-control contact-input id="inputName" required="required" placeholder="Name" name="name"/>
+</div>
+<div class="form-group centre-block">
+<label for="inputEmail">Email</label></br>
+<input type="email" required="required" class="form-control contact-input" id="inputEmail" placeholder="Email" name="email">
+</div>
+<div class="form-group centre-block">
+
+ <label for="comment">Your Comment:</label></br>
+   <textarea
+name="comment" required="required" id="comment"></textarea>
+</br>
+<input type="submit" value="submit">
+</div>
+
+<script >
+$('#contact-form').submit(function(e)
+{
+ var name=document.getElementById('#inputName'),
+  email=document.getElementById('#inputEmail'),
+  message=document.getElementById('#inputName');
+
+if(!name.value|| !email.value|| !message.value||){
+ alertify.errror('please check your entries')
+}else{
+$.ajax({
+    url: "https://formspree.io/hjtaki@gmail.com", 
+    method: "POST",
+    data: $(this).serialize(),
+    dataType: "json"
+});
+ e.preventDefault()
+ alertify.success('Message sent')
+
+}
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+
+
+/*main*/
+
+
+
+body{
+	background-color: #F8F9FA !important;
+	padding: 0em;
+}
+.container-fluid{
+	margin: 0;
+}
+
+.col-12{
+	padding: 0;
+	margin: 0;
+}
+
+/*menu bar*/
+
+.top{
+	background-color: #ffffff;
+	width: 100%;
+	height: 5%;
+}
+
+
+/*3H*/
+.top span{
+	font-family: 'Monoton';
+	font-size: 2em;
+	margin: 1em ;
+}
+
+
+
+/*LOG IN*/
+.row .top button{
+
+	background-color: #e0e0e0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:0.8em;
+	padding: 0.4em;
+	float: right;
+	margin : 0.7em;
+	margin-right: 1.5em;
+	border: solid .02em #cecaca;
+
+}
+
+
+
+div .top{
+	margin-top: 0.3em;
+}
+div .row{
+	background-color: white;
+}
+
+#menu-bar{
+	width: 100%;
+	font-size: 1em ;
+	padding: 0.2em 1em;
+	margin:0;
+	background-color: #e0e0e0 !important;
+	border: solid .02em #cecaca;
+}
+
+div .col{
+	padding: 0;
+	margin: 0;
+
+}
+
+.navbar-nav a{
+	margin: 0 0.6em;
+	padding: 0;
+}
+
+.row h2 {
+	margin-bottom: 0em;
+	margin-top: 1em;
+	padding: 0.5em 2em;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.row p {
+	font-size:1.1em;
+	text-align: center;
+	padding: 0em 5em;
+	padding-top: 0em;
+	margin-bottom: 4em;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+ul{
+	margin: 0em;
+}
+
+.bottom{
+	background-color: #E0E0E0 ;
+	width:100%;
+	padding: 1em 1em 3em 3em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	margin-top: 4em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+		border-top: solid .02em #cecaca;
+
+
+
+
+}
+
+div .Copyright{
+	background-color: #aaaaaa;
+	width:100%;
+	padding: 0.8em;
+	text-align: center;
+
+}
+/*contact*/
+
+.form-area button{
+	background-color: grey;
+	border: grey
+}
+div .bottom{
+	margin-top: 0em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+
+}
+
+.bottom li{
+		font-family: 'Open Sans', sans-serif;
+		margin-top: 0.5em;
+
+
+}
+
+.title{
+		font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	/*padding: 1em;*/
+
+}
+
+
+
+.card-deck{
+	margin:0.5em;
+}
+
+/*why*/
+
+.why_text{
+	padding: 1em 5em;
+}
+
+
+/*video*/
+#video_whole{
+	margin: 0 0em;
+}
+
+.videos .col-4 p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*shop*/
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+.col-4{
+	text-align: center;
+	margin-bottom: 2em;
+}
+.col-4 img{
+	height: 20em;
+	text-align: center;}
+
+.col-4 img:hover{
+	 opacity: 0.7; 
+
+}
+
+
+
+.col-4 span{
+	padding-left: 3em;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+ /*contact*/
+
+
+.red{
+    color:red;
+    }
+.form-area
+{
+	padding: 1em 4em;
+	margin: 1em 0 6em;
+	border: 0.1em solid grey;
+	text-align: center;
+
+	}
+
+
+
+
+
+
